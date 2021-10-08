@@ -28,7 +28,6 @@ let todoList = [
   },
 ];
 
-
 const storedData = JSON.parse(localStorage.getItem('todos'));
 if (storedData) {
   todoList = storedData;
@@ -48,9 +47,9 @@ const display = () => {
     <hr>`;
     container.innerHTML += containerItems;
   });
-  
+
   const boxes = document.querySelectorAll('.box');
-  
+
   boxes.forEach((box) => {
     box.addEventListener('change', () => {
       setCompleted(todoList, box);
