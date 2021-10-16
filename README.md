@@ -5,6 +5,7 @@
 > To do list is a project where you can Add an item or remove it from a lis 
 
 ![screenshot](./app_screenshot.png)
+## you can see the  [live demo](https://alaaalsalem.github.io/todo_list/) of this project
 
 Additional description about the project and its features.
 
