@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AlaaAlsalem/todo_list#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.5",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.3.0",
     "eslint": "^7.32.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-import": "^2.24.2",
     "hint": "^6.1.4",
     "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.4.5",
     "style-loader": "^3.3.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
